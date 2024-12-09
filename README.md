@@ -1,122 +1,90 @@
 # Infinity Runner
 
-A fast-paced endless runner game built with SpriteKit for iOS, inspired by classic games like Jetpack Joyride. Navigate through rotating obstacles, collect coins, and activate power-ups while trying to achieve the highest score!
+An endless runner game inspired by Jetpack Joyride, built with SpriteKit for iOS. Navigate through obstacles, collect coins, and see how far you can go!
 
 ## Features
 
-### Core Gameplay 
-- Smooth jetpack-based player movement
-- Distance-based scoring system
-- High score tracking with local persistence
-- Physics-based gameplay mechanics
-- Procedurally generated obstacles
-- Increasing difficulty over time
+### Core Mechanics
+- [x] Jetpack-based vertical movement
+- [x] Continuous horizontal scrolling
+- [x] Dynamic obstacle spawning
+- [x] Coin collection system
+- [x] Score tracking based on distance
+- [x] High score persistence
+- [x] Collision detection and game over state
+- [x] Particle effects for jetpack
+- [x] Beautiful starfield background
 
-### Visual Effects 
-- Dynamic starfield background
-- Jetpack particle effects
-- Player glow effects
-- Rotating obstacles
-- Smooth animations
-- Clean, minimalist design
+### User Interface
+- [x] Main menu with title and "Tap to Play"
+- [x] In-game HUD with score and coins
+- [x] Pause menu with resume and main menu options
+- [x] Game over screen with final score
+- [x] High score display
+- [ ] Settings menu for sound/music control
+- [ ] Tutorial overlay for new players
 
-### Game Elements 
-- Rotating obstacles:
-  - Cones with variable heights
-  - Laser beams with different sizes
-- Coin collection system with patterns:
-  - Straight lines
-  - Arcs
-  - Zigzag patterns
-- Power-up system:
-  - Shield () - Temporary invincibility
-  - Speed Boost () - Increased game speed
-  - Magnet () - Attracts nearby coins
-  - Mini Size () - Reduces player size
+### Planned Features
+- [ ] Power-ups (shields, magnets, speed boosts)
+- [ ] Character customization
+- [ ] Different environments/themes
+- [ ] Achievement system
+- [ ] Daily challenges
+- [ ] Social features (leaderboards)
+- [ ] Sound effects and background music
+- [ ] More obstacle types
+- [ ] Shop system for upgrades
+- [ ] Cloud save support
 
-### User Interface 
-- Main menu with high score display
-- In-game HUD with score and coin counters
-- Pause menu with resume and main menu options
-- Game over screen with score summary
-- New high score celebrations
-- Semi-transparent UI elements
-
-## Roadmap 
-
-### Short Term Goals
-- [ ] Add sound effects:
-  - [ ] Jetpack sounds
-  - [ ] Coin collection
-  - [ ] Power-up activation
-  - [ ] Collision sounds
-- [ ] Add background music:
-  - [ ] Menu theme
-  - [ ] Gameplay music
-  - [ ] Game over jingle
-- [ ] Improve visual feedback:
-  - [ ] Screen shake on collision
-  - [ ] Power-up duration indicator
-  - [ ] Score multiplier effects
-
-### Medium Term Goals
-- [ ] Character customization:
-  - [ ] Different character skins
-  - [ ] Custom jetpack styles
-  - [ ] Trail effects
-- [ ] Achievement system:
-  - [ ] Distance milestones
-  - [ ] Coin collection goals
-  - [ ] Power-up usage tracking
-- [ ] Daily challenges:
-  - [ ] Unique objectives
-  - [ ] Special rewards
-  - [ ] Leaderboards
-
-### Long Term Goals
-- [ ] Online features:
-  - [ ] Global leaderboards
-  - [ ] Cloud save support
-  - [ ] Friend challenges
-- [ ] Monetization:
-  - [ ] In-app purchases for cosmetics
-  - [ ] Remove ads option
-  - [ ] Premium power-ups
-- [ ] Social features:
-  - [ ] Share scores
-  - [ ] Share replays
-  - [ ] Friend invites
-
-## Technical Details
-
-### Requirements
+## Requirements
 - iOS 14.0+
 - Xcode 13.0+
 - Swift 5.0+
 
-### Frameworks Used
-- SpriteKit
-- GameplayKit
-- UIKit
-
 ## Installation
 
-1. Clone the repository
+1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/infinity-runner.git
 ```
 
-2. Open the project in Xcode
+2. Open the project in Xcode:
 ```bash
 cd infinity-runner
 open "Infinity Runner.xcodeproj"
 ```
 
-3. Build and run the project on your device or simulator
+3. Select your target device and press Run (⌘R)
+
+## How to Play
+
+1. Tap and hold anywhere on the screen to activate the jetpack
+2. Release to fall
+3. Avoid obstacles and collect coins
+4. Try to beat your high score!
+
+## Technical Details
+
+### Architecture
+- Built with SpriteKit framework
+- Scene management for different game states
+- Physics-based collision detection
+- Particle systems for visual effects
+- UserDefaults for local data persistence
+
+### Performance Optimizations
+- Node recycling for obstacles and coins
+- Efficient particle system management
+- Optimized texture atlases
+- Smart node culling when off-screen
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
@@ -124,5 +92,32 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Inspired by Jetpack Joyride and other classic endless runners
-- Built with SpriteKit and lots of 
+- Inspired by Jetpack Joyride
+- Built with SpriteKit
+- Particle effects designed in Xcode
+- Special thanks to the iOS game development community
+
+## Development Roadmap
+
+### Short Term (1-2 months)
+- [ ] Add sound effects and background music
+- [ ] Implement basic power-ups
+- [ ] Add more obstacle types
+- [ ] Create basic tutorial
+
+### Medium Term (3-6 months)
+- [ ] Character customization system
+- [ ] Shop implementation
+- [ ] Achievement system
+- [ ] Different game modes
+
+### Long Term (6+ months)
+- [ ] Online leaderboards
+- [ ] Daily challenges
+- [ ] Multiple environments
+- [ ] Social features
+- [ ] Cloud save support
+
+---
+
+Made with ❤️ using SpriteKit
