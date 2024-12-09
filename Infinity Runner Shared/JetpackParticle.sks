@@ -1,0 +1,58 @@
+{
+  "particleTexture" : {
+    "className" : "SKTexture",
+    "texture" : "spark"
+  },
+  "particleBirthRate" : 200,
+  "particleLifetime" : 0.3,
+  "particlePositionRange" : {
+    "x" : 3,
+    "y" : 3
+  },
+  "particleSpeed" : -150,
+  "particleSpeedRange" : 50,
+  "particleAlpha" : 0.8,
+  "particleAlphaRange" : 0.2,
+  "particleAlphaSpeed" : -1.0,
+  "particleScale" : 0.3,
+  "particleScaleRange" : 0.1,
+  "particleScaleSpeed" : -0.5,
+  "particleRotation" : 0,
+  "particleRotationRange" : 0,
+  "particleColorBlendFactor" : 1,
+  "particleBlendMode" : "add",
+  "particleColor" : {
+    "red" : 1,
+    "green" : 0.5,
+    "blue" : 0.1,
+    "alpha" : 1
+  },
+  "particleColorSequence" : [
+    {
+      "color" : {
+        "red" : 1,
+        "green" : 0.5,
+        "blue" : 0.1,
+        "alpha" : 1
+      },
+      "time" : 0
+    },
+    {
+      "color" : {
+        "red" : 1,
+        "green" : 0.2,
+        "blue" : 0,
+        "alpha" : 0
+      },
+      "time" : 1
+    }
+  ],
+  "emitterPosition" : {
+    "x" : 0,
+    "y" : 0
+  },
+  "emissionAngle" : 3.141592653589793,
+  "emissionAngleRange" : 0.2,
+  "particleBirthMode" : "surface",
+  "yAcceleration" : 0
+}

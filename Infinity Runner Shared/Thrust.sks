@@ -1,0 +1,25 @@
+{
+  "particlePositionRange" : {
+    "x" : 5,
+    "y" : 5
+  },
+  "particleBirthRate" : 100,
+  "particleLifetime" : 0.5,
+  "particleLifetimeRange" : 0.25,
+  "particleSpeed" : 50,
+  "particleSpeedRange" : 25,
+  "particleAlpha" : 0.5,
+  "particleAlphaRange" : 0.25,
+  "particleScale" : 0.1,
+  "particleScaleRange" : 0.05,
+  "particleScaleSpeed" : -0.1,
+  "particleColor" : {
+    "red" : 0.0,
+    "green" : 1.0,
+    "blue" : 1.0,
+    "alpha" : 1.0
+  },
+  "particleColorBlendFactor" : 1.0,
+  "particleBlendMode" : "add",
+  "particleTexture" : "spark.png"
+}
